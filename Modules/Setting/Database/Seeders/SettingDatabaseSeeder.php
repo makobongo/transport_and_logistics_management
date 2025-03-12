@@ -16,13 +16,13 @@ class SettingDatabaseSeeder extends Seeder
     public function run()
     {
         Setting::create([
-            'company_name' => 'SIXXSSMOD POS',
+            'company_name' => 'TLMS',
             'company_email' => 'company@test.com',
             'company_phone' => '0714151822',
-            'notification_email' => 'notifications@sixx-spirits.com',
+            'notification_email' => 'notifications@test.com',
             'default_currency_id' => 1,
             'default_currency_position' => 'prefix',
-            'footer_text' => 'SIXXSSMOD POS © 2021 || Developed by <strong><a target="_blank" href="https://sobongo.dev">sixxssmod</a></strong>',
+            'footer_text' => 'TLMS © 2021 || Developed by <strong><a target="_blank" href="#">tlms</a></strong>',
             'company_address' => 'Nairobi, Kenya'
         ]);
     }
